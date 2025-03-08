@@ -22,6 +22,7 @@ The paper presents a study on utilizing a deep learning-based approach for the d
     <b>🏥 Clinical Implications: </b>The proposed model could significantly enhance diagnostic workflows in healthcare settings.
   </li>
 </ul><br>
+
 ### Key-Insights
 <ul>
   <li>
@@ -47,9 +48,19 @@ The results of achieving over 93% accuracy on both training and testing datasets
 
 The necessity for quick and reliable diagnosis in urgent medical situations cannot be overstated. Bone fractures, being one of the most common musculoskeletal injuries, require immediate attention to initiate appropriate treatment. Current practices often rely on the expertise of radiologists, which, while valuable, can be prone to human error and may lead to delays in care. By automating the detection process, the proposed system aims to minimize such risks, providing healthcare professionals with a reliable tool that can assist in the initial assessment of X-ray images.
 
+<p align="center">
+  <img src="https://github.com/varun-v-1410/bone-fracture-detection-using-mobilenetv2/blob/main/imgs/model%20layers.jpg"/><br>
+  <em>Framework of MobileNetV2 and CNN for Bone Fracture Detection</em>
+</p>
+
 Through the utilization of MobileNetV2, the study also emphasizes the significance of computational efficiency in a clinical context. The architecture’s design enables it to function effectively on devices with limited processing power, making it suitable for various healthcare environments where rapid diagnostics are essential. This aligns with the broader movement towards mobile health technologies that enable quicker decision-making and patient assessments.
 
 Moreover, the study’s findings on the comparative analysis of different deep learning models provide valuable insights into the ongoing evolution of AI in medical imaging. While traditional models like VGG19 and ResNet50 have laid the groundwork for many applications, the emergence of newer models such as MobileNetV2 indicates a shift towards architectures that prioritize efficiency without sacrificing accuracy.
+
+<p align="center">
+  <img src="https://github.com/varun-v-1410/bone-fracture-detection-using-mobilenetv2/blob/main/imgs/accuracy%20analysis.png"/><br>
+  <em>Accuracy and loss analysis of proposed model</em>
+</p>
 
 Looking ahead, the potential for integrating multi-modal data into the fracture detection process presents an exciting avenue for future research. By combining imaging data with patient-specific information, the model could be refined to offer even more precise diagnoses, further enhancing patient care.
 
